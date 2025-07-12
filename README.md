@@ -29,6 +29,16 @@ pip install requests rich colorama
 ---
 
 ## Usage
+Clone the repository
+
+```bash
+git clone --depth=1 https://github.com/JOY-XII/ADMIN.git
+```
+Open directory
+
+```bash
+cd ADMIN 
+```
 
 Run the tool by executing the Python script:
 
@@ -52,15 +62,15 @@ The tool will then scan a list of common admin panel paths on the target website
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│ http://example.com/admin --> Boom!                        │
+│ http://example.com/admin --> Boom!                                │
 └─────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────┐
-│ http://example.com/cpanel --> Mother F**Ker Forbidden    │
+│ http://example.com/cpanel --> Mother F**Ker Forbidden             │
 └─────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────┐
-│ http://example.com/login --> Not Found :(                │
+│ http://example.com/login --> Not Found :(                         │
 └─────────────────────────────────────────────────────────┘
 ```
 
